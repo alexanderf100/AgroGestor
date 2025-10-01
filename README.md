@@ -26,27 +26,28 @@ agrogestor/
     │── gestionInsumos.py
     
 
-1. ¿Cómo clonar el repositorio?
+1. **¿Cómo clonar el repositorio?**
 
     Python: En la terminal ->
         git clone https://github.com/TU_USUARIO/agrogestor.git
         cd agrogestor
 
-2. Crear un entorno virtual (Python)
+2. **Crear un entorno virtual (Python)**
+
     python -m venv venv
     source venv/bin/activate   # Linux/Mac
     venv\Scripts\activate      # Windows (o .venv\Scripts\Activate.ps1 en PowerShell)
 
-3. Instalación de dependencias
+3. **Instalación de dependencias**
 
     pip install fastapi uvicorn pydantic
 
-4. Ejecutar el servidor
+4. **Ejecutar el servidor**
 
     uvicorn main:app --reload
     # Alternativa: python -m uvicorn main:app --reload
 
-5. Acceso a la API
+5. **Acceso a la API**
 
     Documentación interactiva: http://127.0.0.1:8000/docs
     Documentación alternativa (ReDoc): http://127.0.0.1:8000/redoc
@@ -78,12 +79,13 @@ agrogestor/
     Pydantic (Validación de datos)
     Uvicorn (Servidor ASGI)
 
-# Autor
+# Autores
   Proyecto desarrollado como caso de estudio en gestión agrícola.
   
-  * Nombre: Juan Flores
-            Deyling Espinoza
-            Luis Acosta
+  * Nombres: 
+  Juan Flores
+  Deyling Espinoza
+  Luis Acosta
             
   * Github: @alexanderf100
   
